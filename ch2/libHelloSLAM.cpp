@@ -2,6 +2,8 @@
 
 using namespace std;
 
-void printHello() {
-    cout << "Hello SLAM!" << "\nfrom printHello() function in libHelloSLAM.cpp file" << endl;
+void printHello()
+{
+    cout << "Hello SLAM!"
+         << "\nfrom printHello() function in libHelloSLAM.cpp file" << endl;
 }

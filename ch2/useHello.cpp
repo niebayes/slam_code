@@ -1,6 +1,7 @@
 #include "libHelloSLAM.h"
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     printHello();
     return 0;
 }
