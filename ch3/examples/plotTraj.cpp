@@ -8,7 +8,7 @@
 #include <Eigen/Core>
 #include <Eigen/Geometry>
 
-//#include <pangolin/pangolin.h>
+#include <pangolin/pangolin.h>
 
 using namespace std;
 using namespace Eigen;
@@ -95,5 +95,4 @@ void DrawTraj(vector<Isometry3d, Eigen::aligned_allocator<Isometry3d>> poses)
         pangolin::FinishFrame();
         usleep(5000);   // sleep 5 ms
     }
-}
 }
